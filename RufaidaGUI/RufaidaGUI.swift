@@ -10,11 +10,11 @@ import Foundation
 
 public final class HelloWorld: NSObject {
     
-    func hello(_ name: String) -> String {
+    public func hello(_ name: String) -> String {
         return "Hello, \(name)!"
     }
     
-    func info(_ name: String) -> Void {
+    public func info(_ name: String) -> Void {
         print("INFO: \(self.hello(name))")
     }
 }

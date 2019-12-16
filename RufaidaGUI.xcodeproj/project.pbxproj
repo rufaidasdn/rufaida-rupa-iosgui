@@ -171,7 +171,6 @@
 				76EE105DE356E237C78E453F /* Pods-RufaidaGUI-RufaidaGUITests.debug.xcconfig */,
 				0669C756FAE60659A139EA88 /* Pods-RufaidaGUI-RufaidaGUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
