@@ -10,6 +10,13 @@
 		372AF6CA23A735B5008A72A0 /* RufaidaGUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372AF6C023A735B5008A72A0 /* RufaidaGUI.framework */; };
 		372AF6CF23A735B5008A72A0 /* RufaidaGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372AF6CE23A735B5008A72A0 /* RufaidaGUITests.swift */; };
 		372AF6D123A735B5008A72A0 /* RufaidaGUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 372AF6C323A735B5008A72A0 /* RufaidaGUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		372AF6E123A736F8008A72A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372AF6E023A736F8008A72A0 /* AppDelegate.swift */; };
+		372AF6E323A736F8008A72A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372AF6E223A736F8008A72A0 /* SceneDelegate.swift */; };
+		372AF6E523A736F8008A72A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372AF6E423A736F8008A72A0 /* ContentView.swift */; };
+		372AF6E723A736FB008A72A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372AF6E623A736FB008A72A0 /* Assets.xcassets */; };
+		372AF6EA23A736FB008A72A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372AF6E923A736FB008A72A0 /* Preview Assets.xcassets */; };
+		372AF6ED23A736FB008A72A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372AF6EB23A736FB008A72A0 /* LaunchScreen.storyboard */; };
+		37ED150123A7379C00F76B4C /* RufaidaGUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ED150023A7379C00F76B4C /* RufaidaGUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,15 @@
 		372AF6C923A735B5008A72A0 /* RufaidaGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RufaidaGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		372AF6CE23A735B5008A72A0 /* RufaidaGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RufaidaGUITests.swift; sourceTree = "<group>"; };
 		372AF6D023A735B5008A72A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		372AF6DE23A736F8008A72A0 /* RufaidaExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RufaidaExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		372AF6E023A736F8008A72A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		372AF6E223A736F8008A72A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		372AF6E423A736F8008A72A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		372AF6E623A736FB008A72A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		372AF6E923A736FB008A72A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		372AF6EC23A736FB008A72A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		372AF6EE23A736FB008A72A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37ED150023A7379C00F76B4C /* RufaidaGUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RufaidaGUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		372AF6DB23A736F8008A72A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +78,7 @@
 			children = (
 				372AF6C223A735B5008A72A0 /* RufaidaGUI */,
 				372AF6CD23A735B5008A72A0 /* RufaidaGUITests */,
+				372AF6DF23A736F8008A72A0 /* RufaidaExamples */,
 				372AF6C123A735B5008A72A0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +88,7 @@
 			children = (
 				372AF6C023A735B5008A72A0 /* RufaidaGUI.framework */,
 				372AF6C923A735B5008A72A0 /* RufaidaGUITests.xctest */,
+				372AF6DE23A736F8008A72A0 /* RufaidaExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +98,7 @@
 			children = (
 				372AF6C323A735B5008A72A0 /* RufaidaGUI.h */,
 				372AF6C423A735B5008A72A0 /* Info.plist */,
+				37ED150023A7379C00F76B4C /* RufaidaGUI.swift */,
 			);
 			path = RufaidaGUI;
 			sourceTree = "<group>";
@@ -84,6 +110,28 @@
 				372AF6D023A735B5008A72A0 /* Info.plist */,
 			);
 			path = RufaidaGUITests;
+			sourceTree = "<group>";
+		};
+		372AF6DF23A736F8008A72A0 /* RufaidaExamples */ = {
+			isa = PBXGroup;
+			children = (
+				372AF6E023A736F8008A72A0 /* AppDelegate.swift */,
+				372AF6E223A736F8008A72A0 /* SceneDelegate.swift */,
+				372AF6E423A736F8008A72A0 /* ContentView.swift */,
+				372AF6E623A736FB008A72A0 /* Assets.xcassets */,
+				372AF6EB23A736FB008A72A0 /* LaunchScreen.storyboard */,
+				372AF6EE23A736FB008A72A0 /* Info.plist */,
+				372AF6E823A736FB008A72A0 /* Preview Content */,
+			);
+			path = RufaidaExamples;
+			sourceTree = "<group>";
+		};
+		372AF6E823A736FB008A72A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				372AF6E923A736FB008A72A0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +184,23 @@
 			productReference = 372AF6C923A735B5008A72A0 /* RufaidaGUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		372AF6DD23A736F8008A72A0 /* RufaidaExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372AF6EF23A736FB008A72A0 /* Build configuration list for PBXNativeTarget "RufaidaExamples" */;
+			buildPhases = (
+				372AF6DA23A736F8008A72A0 /* Sources */,
+				372AF6DB23A736F8008A72A0 /* Frameworks */,
+				372AF6DC23A736F8008A72A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RufaidaExamples;
+			productName = RufaidaExamples;
+			productReference = 372AF6DE23A736F8008A72A0 /* RufaidaExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,8 +213,12 @@
 				TargetAttributes = {
 					372AF6BF23A735B5008A72A0 = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 					372AF6C823A735B5008A72A0 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					372AF6DD23A736F8008A72A0 = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
@@ -169,6 +238,7 @@
 			targets = (
 				372AF6BF23A735B5008A72A0 /* RufaidaGUI */,
 				372AF6C823A735B5008A72A0 /* RufaidaGUITests */,
+				372AF6DD23A736F8008A72A0 /* RufaidaExamples */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +258,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		372AF6DC23A736F8008A72A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372AF6ED23A736FB008A72A0 /* LaunchScreen.storyboard in Resources */,
+				372AF6EA23A736FB008A72A0 /* Preview Assets.xcassets in Resources */,
+				372AF6E723A736FB008A72A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37ED150123A7379C00F76B4C /* RufaidaGUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +284,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				372AF6CF23A735B5008A72A0 /* RufaidaGUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372AF6DA23A736F8008A72A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372AF6E123A736F8008A72A0 /* AppDelegate.swift in Sources */,
+				372AF6E323A736F8008A72A0 /* SceneDelegate.swift in Sources */,
+				372AF6E523A736F8008A72A0 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +306,17 @@
 			targetProxy = 372AF6CB23A735B5008A72A0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		372AF6EB23A736FB008A72A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				372AF6EC23A736FB008A72A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		372AF6D223A735B5008A72A0 /* Debug */ = {
@@ -340,6 +442,7 @@
 		372AF6D523A735B5008A72A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6QLL6Z3ZZT;
@@ -356,6 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = my.com.rufaida.rupa.RufaidaGUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +468,7 @@
 		372AF6D623A735B5008A72A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6QLL6Z3ZZT;
@@ -388,6 +493,7 @@
 		372AF6D823A735B5008A72A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6QLL6Z3ZZT;
 				INFOPLIST_FILE = RufaidaGUITests/Info.plist;
@@ -406,6 +512,7 @@
 		372AF6D923A735B5008A72A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6QLL6Z3ZZT;
 				INFOPLIST_FILE = RufaidaGUITests/Info.plist;
@@ -415,6 +522,44 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = my.com.rufaida.rupa.RufaidaGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		372AF6F023A736FB008A72A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RufaidaExamples/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RufaidaExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.com.rufaida.rupa.RufaidaExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		372AF6F123A736FB008A72A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RufaidaExamples/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RufaidaExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.com.rufaida.rupa.RufaidaExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,6 +592,15 @@
 			buildConfigurations = (
 				372AF6D823A735B5008A72A0 /* Debug */,
 				372AF6D923A735B5008A72A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372AF6EF23A736FB008A72A0 /* Build configuration list for PBXNativeTarget "RufaidaExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372AF6F023A736FB008A72A0 /* Debug */,
+				372AF6F123A736FB008A72A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
