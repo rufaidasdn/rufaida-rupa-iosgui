@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16C8E15ABDEEF8298C9678D0 /* Pods_RufaidaGUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F526EB3F12F72D9C3FB934 /* Pods_RufaidaGUI.framework */; };
 		372AF6CA23A735B5008A72A0 /* RufaidaGUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372AF6C023A735B5008A72A0 /* RufaidaGUI.framework */; };
 		372AF6CF23A735B5008A72A0 /* RufaidaGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372AF6CE23A735B5008A72A0 /* RufaidaGUITests.swift */; };
 		372AF6D123A735B5008A72A0 /* RufaidaGUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 372AF6C323A735B5008A72A0 /* RufaidaGUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -17,6 +18,8 @@
 		372AF6EA23A736FB008A72A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372AF6E923A736FB008A72A0 /* Preview Assets.xcassets */; };
 		372AF6ED23A736FB008A72A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372AF6EB23A736FB008A72A0 /* LaunchScreen.storyboard */; };
 		37ED150123A7379C00F76B4C /* RufaidaGUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ED150023A7379C00F76B4C /* RufaidaGUI.swift */; };
+		48B1330D95FF218665206BF6 /* Pods_RufaidaGUI_RufaidaGUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3D8F99A5D1343756042273 /* Pods_RufaidaGUI_RufaidaGUITests.framework */; };
+		778247F392100670118C6B8E /* Pods_RufaidaExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31E82D04DBFD2D1B7F426A6 /* Pods_RufaidaExamples.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0669C756FAE60659A139EA88 /* Pods-RufaidaGUI-RufaidaGUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RufaidaGUI-RufaidaGUITests.release.xcconfig"; path = "Target Support Files/Pods-RufaidaGUI-RufaidaGUITests/Pods-RufaidaGUI-RufaidaGUITests.release.xcconfig"; sourceTree = "<group>"; };
+		28F526EB3F12F72D9C3FB934 /* Pods_RufaidaGUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RufaidaGUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34590E5B31F718DC2AEEC950 /* Pods-RufaidaExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RufaidaExamples.debug.xcconfig"; path = "Target Support Files/Pods-RufaidaExamples/Pods-RufaidaExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		36467568398DE335349FD3E7 /* Pods-RufaidaGUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RufaidaGUI.debug.xcconfig"; path = "Target Support Files/Pods-RufaidaGUI/Pods-RufaidaGUI.debug.xcconfig"; sourceTree = "<group>"; };
 		372AF6C023A735B5008A72A0 /* RufaidaGUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RufaidaGUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		372AF6C323A735B5008A72A0 /* RufaidaGUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RufaidaGUI.h; sourceTree = "<group>"; };
 		372AF6C423A735B5008A72A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +52,11 @@
 		372AF6EC23A736FB008A72A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		372AF6EE23A736FB008A72A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37ED150023A7379C00F76B4C /* RufaidaGUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RufaidaGUI.swift; sourceTree = "<group>"; };
+		6C716EC83016661E3CAD485F /* Pods-RufaidaExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RufaidaExamples.release.xcconfig"; path = "Target Support Files/Pods-RufaidaExamples/Pods-RufaidaExamples.release.xcconfig"; sourceTree = "<group>"; };
+		76EE105DE356E237C78E453F /* Pods-RufaidaGUI-RufaidaGUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RufaidaGUI-RufaidaGUITests.debug.xcconfig"; path = "Target Support Files/Pods-RufaidaGUI-RufaidaGUITests/Pods-RufaidaGUI-RufaidaGUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAD31E8B836BDE957CF31D12 /* Pods-RufaidaGUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RufaidaGUI.release.xcconfig"; path = "Target Support Files/Pods-RufaidaGUI/Pods-RufaidaGUI.release.xcconfig"; sourceTree = "<group>"; };
+		B31E82D04DBFD2D1B7F426A6 /* Pods_RufaidaExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RufaidaExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3D8F99A5D1343756042273 /* Pods_RufaidaGUI_RufaidaGUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RufaidaGUI_RufaidaGUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16C8E15ABDEEF8298C9678D0 /* Pods_RufaidaGUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				372AF6CA23A735B5008A72A0 /* RufaidaGUI.framework in Frameworks */,
+				48B1330D95FF218665206BF6 /* Pods_RufaidaGUI_RufaidaGUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				778247F392100670118C6B8E /* Pods_RufaidaExamples.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +95,8 @@
 				372AF6CD23A735B5008A72A0 /* RufaidaGUITests */,
 				372AF6DF23A736F8008A72A0 /* RufaidaExamples */,
 				372AF6C123A735B5008A72A0 /* Products */,
+				9C5A2732011B510A0AC3C1CB /* Pods */,
+				3C73FF56B45031D9ECE59B87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +151,30 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3C73FF56B45031D9ECE59B87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B31E82D04DBFD2D1B7F426A6 /* Pods_RufaidaExamples.framework */,
+				28F526EB3F12F72D9C3FB934 /* Pods_RufaidaGUI.framework */,
+				CB3D8F99A5D1343756042273 /* Pods_RufaidaGUI_RufaidaGUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C5A2732011B510A0AC3C1CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34590E5B31F718DC2AEEC950 /* Pods-RufaidaExamples.debug.xcconfig */,
+				6C716EC83016661E3CAD485F /* Pods-RufaidaExamples.release.xcconfig */,
+				36467568398DE335349FD3E7 /* Pods-RufaidaGUI.debug.xcconfig */,
+				AAD31E8B836BDE957CF31D12 /* Pods-RufaidaGUI.release.xcconfig */,
+				76EE105DE356E237C78E453F /* Pods-RufaidaGUI-RufaidaGUITests.debug.xcconfig */,
+				0669C756FAE60659A139EA88 /* Pods-RufaidaGUI-RufaidaGUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -152,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 372AF6D423A735B5008A72A0 /* Build configuration list for PBXNativeTarget "RufaidaGUI" */;
 			buildPhases = (
+				A42FA7A1E7277FEEBE98AFA0 /* [CP] Check Pods Manifest.lock */,
 				372AF6BB23A735B5008A72A0 /* Headers */,
 				372AF6BC23A735B5008A72A0 /* Sources */,
 				372AF6BD23A735B5008A72A0 /* Frameworks */,
@@ -170,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 372AF6D723A735B5008A72A0 /* Build configuration list for PBXNativeTarget "RufaidaGUITests" */;
 			buildPhases = (
+				8CC56C6457B1AEFDE943DB93 /* [CP] Check Pods Manifest.lock */,
 				372AF6C523A735B5008A72A0 /* Sources */,
 				372AF6C623A735B5008A72A0 /* Frameworks */,
 				372AF6C723A735B5008A72A0 /* Resources */,
@@ -188,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 372AF6EF23A736FB008A72A0 /* Build configuration list for PBXNativeTarget "RufaidaExamples" */;
 			buildPhases = (
+				8266F16971AC5277BC5DC0C2 /* [CP] Check Pods Manifest.lock */,
 				372AF6DA23A736F8008A72A0 /* Sources */,
 				372AF6DB23A736F8008A72A0 /* Frameworks */,
 				372AF6DC23A736F8008A72A0 /* Resources */,
@@ -269,6 +313,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8266F16971AC5277BC5DC0C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RufaidaExamples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CC56C6457B1AEFDE943DB93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RufaidaGUI-RufaidaGUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A42FA7A1E7277FEEBE98AFA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RufaidaGUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		372AF6BC23A735B5008A72A0 /* Sources */ = {
@@ -441,6 +554,7 @@
 		};
 		372AF6D523A735B5008A72A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36467568398DE335349FD3E7 /* Pods-RufaidaGUI.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +581,7 @@
 		};
 		372AF6D623A735B5008A72A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD31E8B836BDE957CF31D12 /* Pods-RufaidaGUI.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -492,6 +607,7 @@
 		};
 		372AF6D823A735B5008A72A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76EE105DE356E237C78E453F /* Pods-RufaidaGUI-RufaidaGUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +627,7 @@
 		};
 		372AF6D923A735B5008A72A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0669C756FAE60659A139EA88 /* Pods-RufaidaGUI-RufaidaGUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +647,7 @@
 		};
 		372AF6F023A736FB008A72A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34590E5B31F718DC2AEEC950 /* Pods-RufaidaExamples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -549,6 +667,7 @@
 		};
 		372AF6F123A736FB008A72A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C716EC83016661E3CAD485F /* Pods-RufaidaExamples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

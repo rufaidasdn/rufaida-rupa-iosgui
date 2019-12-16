@@ -1,0 +1,6 @@
+framework module Pods_RufaidaGUI_RufaidaGUITests {
+  umbrella header "Pods-RufaidaGUI-RufaidaGUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
