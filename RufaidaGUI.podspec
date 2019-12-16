@@ -7,14 +7,6 @@
 #
 
 Pod::Spec.new do |spec|
-
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  These will help people to find your library, and whilst it
-  #  can feel like a chore to fill in it's definitely to your advantage. The
-  #  summary should be tweet-length, and the description more in depth.
-  #
-
   spec.name         = "RufaidaGUI"
   spec.version      = "0.0.1"
   spec.summary      = "RufaidaGUI for RufaidaPatientAffairs"
@@ -32,70 +24,28 @@ Pod::Spec.new do |spec|
                    DESC
 
   spec.homepage     = "https://cdn.medisys.com.my/docs/rufaida/swift/rupa/iosgui"
-  # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Licensing your code is important. See https://choosealicense.com for more info.
-  #  CocoaPods will detect a license file if there is a named LICENSE*
-  #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
-  #
-
-  #spec.license      = "MIT (example)"
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.license      = "MIT"
+  # spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the authors of the library, with email addresses. Email addresses
-  #  of the authors are extracted from the SCM log. E.g. $ git log. CocoaPods also
-  #  accepts just a name if you'd rather not provide an email address.
-  #
-  #  Specify a social_media_url where others can refer to, for example a twitter
-  #  profile URL.
-  #
-
-  spec.author             = { "Md Shahed Hossain" => "shahed@medisys.com.sa" }
-  # Or just: spec.author    = "Md Shahed Hossain"
-  # spec.authors            = { "Md Shahed Hossain" => "shahed@medisys.com.sa" }
-  # spec.social_media_url   = "https://twitter.com/Md Shahed Hossain"
+  spec.authors            = { "Md Shahed Hossain" => "shahed@medisys.com.sa" }
+  spec.social_media_url   = "https://twitter.com/engshahed"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If this Pod runs only on iOS or OS X, then specify the platform and
-  #  the deployment target. You can optionally include the target after the platform.
-  #
-
-  # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
-
-  spec.swift_version  = '5.1'
-
-  #  When using multiple platforms
-  spec.ios.deployment_target = "13.2"
-  # spec.osx.deployment_target = "10.15"
-  # spec.watchos.deployment_target = "2.0"
-  # spec.tvos.deployment_target = "9.0"
-
+  spec.ios.deployment_target     = "10.10"
+  spec.osx.deployment_target     = "10.12"
+  spec.watchos.deployment_target = "3.0"
+  spec.tvos.deployment_target    = "10.0"
+  spec.swift_versions            = ["5.0", "5.1"]
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the location from where the source should be retrieved.
-  #  Supports git, hg, bzr, svn and HTTP.
-  #
-
   spec.source       = { :git => "https://github.com/rufaidasdn/rufaida-rupa-iosgui.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  CocoaPods is smart about how it includes source code. For source files
-  #  giving a folder will include any swift, h, m, mm, c & cpp files.
-  #  For header files it will include any header in the folder.
-  #  Not including the public_header_files will make all headers public.
-  #
-
   spec.source_files  = "RufaidaGUI", "RufaidaGUI/**/*.{h,m,swift}"
   # spec.exclude_files = "Classes/Exclude"
 
