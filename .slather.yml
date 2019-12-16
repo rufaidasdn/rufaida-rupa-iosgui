@@ -1,0 +1,6 @@
+coverage_service: cobertura_xml
+xcodeproj: RufaidaGUI.xcodeproj
+scheme: RufaidaGUI
+output_directory: reports
+ignore:
+  - RufaidaGUITests/*
