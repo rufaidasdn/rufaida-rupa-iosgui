@@ -1,6 +1,0 @@
-framework module Pods_RufaidaExamples {
-  umbrella header "Pods-RufaidaExamples-umbrella.h"
-
-  export *
-  module * { export * }
-}
